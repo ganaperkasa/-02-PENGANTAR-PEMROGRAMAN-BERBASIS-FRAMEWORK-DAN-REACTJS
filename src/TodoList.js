@@ -1,6 +1,7 @@
+import React, { useState } from 'react';
 
 
-function TodoListt() {
+function TodoList() {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState("");
 
